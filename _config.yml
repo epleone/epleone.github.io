@@ -1,0 +1,50 @@
+# Site settings
+title_left    : "Think"
+title_right   : "space"
+description   : "这里是 @epleone 的个人博客，与你一起发现更美的世界。"
+keyword       : "西轩, eple, epleone, epleverse, 西轩的博客, eple Blog, 博客, 个人网站, Jekyll, theme"
+url           : https://epleone.github.io   # site url
+baseurl       : /demo # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
+
+google_analytics  : UA-XXXXX-XX
+# twitter_username  : ""
+comments_enabled  : true # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : ""
+weibo_username:     epleone
+zhihu_username:     epleone
+github_username:    epleone
+postshare_enabled : false
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+kramdown    :
+  input: GFM
+highlighter : rouge
+
+source      : ./
+destination : ./_site
+
+# Sass configuration
+sass:
+  sass_dir  : assets/scss
+  style     : compressed # expanded
+
+# Author settings
+author:
+  name     : "epleone"
+
+plugins:
+  - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
