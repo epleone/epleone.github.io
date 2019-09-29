@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "Think"
 title_right   : "space"
-description   : "这里是 @epleone 的个人博客，与你一起发现更美的世界。"
+description   : "@epleone"
 keyword       : "西轩, eple, epleone, 博客"
 url           : https://epleone.github.io   # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
