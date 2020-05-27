@@ -8,13 +8,16 @@ baseurl       : "" # apply repo name like "/myproject" if used under gh-pages br
 cover         : "" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-XXXXX-XX
-# twitter_username  : ""
-comments_enabled  : true # if enabled (set to true), please provide your disqus_username
+
+comments_enabled  : false # if enabled (set to true), please provide your disqus_username
 disqus_shortname  : ""
+postshare_enabled : false
+
+# twitter_username  : ""
 weibo_username:     epleone
 zhihu_username:     epleone
 github_username:    epleone
-postshare_enabled : false
+
 
 # Build settings
 permalink   : /:year/:title/
