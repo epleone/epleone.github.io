@@ -42,6 +42,7 @@ sudo apt-get install tmux
 |       关闭 `session`        | `tmux kill-session -t 名字` |
 |         挂起 `session`         |       `prefix` + `d`       |
 |       切换 `session`        |       `prefix` + `s`       |
+|       重命名 `session`        |       `prefix` + `$`       |
 | 关闭 `Tmux` 杀死所有session |     `tmux kill-server`      |
 |     列出已有`Tmux`列表      |          `tmux ls`          |
 
