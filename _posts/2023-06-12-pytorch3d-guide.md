@@ -19,33 +19,34 @@ tags:
 
 ## 基础知识
 
-pytorch3d的默认距离单位是m(米)**
+> pytorch3d的默认距离单位是**m(米)**
 
 **坐标系是 ？？**
 
-https://pytorch3d.org/docs/why_pytorch3d
+[https://pytorch3d.org/docs/why_pytorch3d](https://pytorch3d.org/docs/why_pytorch3d)
 
 
 
 ### api
 
-https://pytorch3d.readthedocs.io/en/latest/modules/index.html
+[https://pytorch3d.readthedocs.io/en/latest/modules/index.html](https://pytorch3d.readthedocs.io/en/latest/modules/index.html)
 
 ### tutorials
 
-https://pytorch3d.org/tutorials/
+[https://pytorch3d.org/tutorials/](https://pytorch3d.org/tutorials/)
 
-https://pytorch3d.readthedocs.io/en/latest/overview.html#tutorials
+[https://pytorch3d.readthedocs.io/en/latest/overview.html#tutorials](https://pytorch3d.readthedocs.io/en/latest/overview.html#tutorials)
 
 
 
 ###  github
 
-https://github.com/facebookresearch/pytorch3d
+[https://github.com/facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d)
 
 
 
-##　光源：Lights
+
+## 光源：Lights
 
 
 
@@ -113,7 +114,7 @@ AmbientLights(*, ambient_color=None, device: Union[str, torch.device] = 'cpu')
 
 
 
-https://pytorch3d.readthedocs.io/en/latest/modules/renderer/lighting.html
+[https://pytorch3d.readthedocs.io/en/latest/modules/renderer/lighting.html](https://pytorch3d.readthedocs.io/en/latest/modules/renderer/lighting.html)
 
 
 
@@ -125,7 +126,7 @@ pytorch3d中目前有四种相机模型, `PerspectiveCameras`, `OrthographicCame
 
 
 
-![pytorch3d_img_0.png](../assets/images/pytorch3d_img_0.png)
+![pytorch3d_img_0.png](assets/images/pytorch3d_img_0.png)
 
 
 
@@ -239,11 +240,11 @@ cameras = FoVPerspectiveCameras(device=device, R=R, T=T)
 
 
 
-https://pytorch3d.org/docs/cameras
+[https://pytorch3d.org/docs/cameras](https://pytorch3d.org/docs/cameras)
 
-https://pytorch3d.readthedocs.io/en/latest/modules/renderer/cameras.html
+[https://pytorch3d.readthedocs.io/en/latest/modules/renderer/cameras.html](https://pytorch3d.readthedocs.io/en/latest/modules/renderer/cameras.html)
 
-https://pytorch3d.readthedocs.io/en/latest/modules/renderer/fisheyecameras.html
+[https://pytorch3d.readthedocs.io/en/latest/modules/renderer/fisheyecameras.html](https://pytorch3d.readthedocs.io/en/latest/modules/renderer/fisheyecameras.html)
 
 
 
@@ -269,7 +270,7 @@ renderer = MeshRenderer(rasterizer=MeshRasterizer(cameras=cameras, raster_settin
 
 
 
-https://pytorch3d.org/docs/renderer_getting_started
+[https://pytorch3d.org/docs/renderer_getting_started](https://pytorch3d.org/docs/renderer_getting_started)
 
 
 
@@ -283,4 +284,4 @@ TODO ...
 
 ## 材质：materials
 
-https://pytorch3d.readthedocs.io/en/latest/modules/renderer/materials.html
+[https://pytorch3d.readthedocs.io/en/latest/modules/renderer/materials.html](https://pytorch3d.readthedocs.io/en/latest/modules/renderer/materials.html)
