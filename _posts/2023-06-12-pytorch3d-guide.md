@@ -2,7 +2,7 @@
 layout:     post
 title:      "Pytorch3d Guide"
 subtitle:   "Pytorch3d 使用笔记"
-date:       2019-09-19
+date:       2023-06-12
 author:     "epleone"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:
