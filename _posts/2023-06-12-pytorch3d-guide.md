@@ -126,7 +126,7 @@ pytorch3d中目前有四种相机模型, `PerspectiveCameras`, `OrthographicCame
 
 
 
-![pytorch3d_img_0.png](assets/images/pytorch3d_img_0.png)
+![pytorch3d_img_0.png](https://raw.githubusercontent.com/epleone/epleone.github.io/master/assets/images/pytorch3d_img_0.png)
 
 
 
